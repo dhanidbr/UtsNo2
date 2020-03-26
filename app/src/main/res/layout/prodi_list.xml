@@ -9,7 +9,7 @@
     android:background="@drawable/border">
 
     <ImageView
-        android:id="@+id/imgMakanan"
+        android:id="@+id/imgProdi"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="16dp"
@@ -31,7 +31,7 @@
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/imgMakanan"
-        app:layout_constraintTop_toTopOf="@+id/imgMakanan" />
+        app:layout_constraintStart_toEndOf="@+id/imgProdi"
+        app:layout_constraintTop_toTopOf="@+id/imgProdi" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

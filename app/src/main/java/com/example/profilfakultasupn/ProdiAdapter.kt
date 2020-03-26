@@ -24,8 +24,8 @@ class ProdiAdapter(
     class PartViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun bind(prodi: ProdiData, clickListener: (ProdiData) -> Unit) {
             itemView.tv_nama.text = prodi.namaFakultas
-            itemView.imgMakanan.setImageResource(prodi.image)
-            itemView.imgMakanan.contentDescription = prodi.namaFakultas
+            itemView.imgProdi.setImageResource(prodi.image)
+            itemView.imgProdi.contentDescription = prodi.namaFakultas
             itemView.setOnClickListener { clickListener(prodi) }
         }
     }
